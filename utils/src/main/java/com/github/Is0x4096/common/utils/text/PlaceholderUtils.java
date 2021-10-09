@@ -256,10 +256,4 @@ public class PlaceholderUtils {
         sbuf.append(']');
     }
 
-    public static void main(String[] args) {
-
-        System.err.println(PlaceholderUtils.format("{}, {}", "aa", 123));
-
-    }
-
 }
